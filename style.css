@@ -118,3 +118,57 @@ h1{
     transform: scale(1.1);
     transition: 0.6s;
 }
+
+.sessaoAbout{
+    background-color: #f0f1f3;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.sessaoAbout img{
+    border: 1px solid black;
+    border-radius: 50%;
+    margin:  auto;
+}
+
+.sessaoAbout img:hover{
+    transform: scale(1.1);
+    transition: 0.6s;
+    box-shadow: 7px 5px 14px -3px rgba(0,0,0,0.65);
+    background-color: #d9d9db;
+}
+
+.infos-about{
+    /* margin-right: 3rem; */
+    margin: 7rem 3rem 7rem 0  ;
+}
+
+.infos-about h3{
+    font-size: 3rem;
+}
+
+.infos-about span{
+    color: #b9b9ba;
+}
+
+.infos-about p{
+    padding-bottom: 2rem;
+    line-height: 2rem;
+}
+
+.infos-about a{
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-decoration: none;
+
+    padding: 0.8rem;
+}
+
+.infos-about a:hover{
+    background-color: #4c4b4b;
+    transition: 1s;
+    color: whitesmoke;
+}

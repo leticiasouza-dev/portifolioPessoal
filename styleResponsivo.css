@@ -10,6 +10,10 @@
     .sessaoBanner{
         background-position: initial;
     }
+
+    .sessaoAbout{
+        grid-template-columns: 1fr;
+    }
 }
 
 @media screen and (min-width: 601px) and (max-width: 800){ /*responsividade para tablets */

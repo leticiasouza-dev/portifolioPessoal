@@ -1,4 +1,4 @@
-@media screen and (max-width: 600px){  /*responsividade para celular*/
+@media screen and (max-width: 767px){  /*responsividade para celular*/
     header{
         flex-direction: column;
         line-height: 2rem;
@@ -28,6 +28,8 @@
     }
 }
 
-@media screen and (min-width: 601px) and (max-width: 800){ /*responsividade para tablets */
-    
+@media screen and (min-width: 768px) and (max-width: 1023px){ /*responsividade para tablets */
+  .infos{
+    margin-left: 30rem;
+  }
 }

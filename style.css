@@ -212,3 +212,43 @@ h1{
 .skils p{
     line-height: 1.5rem;
 }
+
+.sessaoProjects{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    padding: 5rem 0;
+}
+
+.sessaoProjects h3{
+    font-size: 3rem;
+}
+
+.sessaoProjects span{
+    color: #b9b9ba;
+}
+
+.projects{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 2rem;
+
+    line-height: 1.5rem;
+    margin: 1rem 0;
+}
+
+.sessaoProjects article{
+    width: 20rem;
+
+    border: 1px solid black;
+    border-radius: 25px;
+
+}
+
+
+.sessaoProjects img{
+    width: 15rem;
+    padding: 2rem 0;
+}

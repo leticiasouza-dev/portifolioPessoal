@@ -1,6 +1,7 @@
 @media screen and (max-width: 600px){  /*responsividade para celular*/
     header{
         flex-direction: column;
+        line-height: 2rem;
     }
 
     nav{
@@ -8,11 +9,22 @@
     }
     
     .sessaoBanner{
-        background-position: initial;
+        background-image: none;
+    }
+
+    .infos{
+        width: 100%;
+        margin: 0 auto;
     }
 
     .sessaoAbout{
         grid-template-columns: 1fr;
+    }
+
+    .infos-about{
+        /* margin-right: 3rem; */
+        margin: 0;
+        text-align: center;
     }
 }
 

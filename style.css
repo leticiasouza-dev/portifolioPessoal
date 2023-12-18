@@ -252,3 +252,13 @@ h1{
     width: 15rem;
     padding: 2rem 0;
 }
+
+footer{
+    background-color: #0e0808;
+    color: white;
+    height: 3rem;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

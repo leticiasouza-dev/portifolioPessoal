@@ -229,28 +229,47 @@ h1{
     color: #b9b9ba;
 }
 
-.projects{
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    gap: 2rem;
-
-    line-height: 1.5rem;
-    margin: 1rem 0;
-}
-
 .sessaoProjects article{
     width: 20rem;
 
     border: 1px solid black;
     border-radius: 25px;
-
 }
-
 
 .sessaoProjects img{
     width: 15rem;
     padding: 2rem 0;
+}
+
+.projects{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+
+    line-height: 1.5rem;
+    margin: 1rem 0;
+    
+}
+
+.projects p{
+    margin-bottom: 2rem;
+}
+
+.projects article a:last-child {
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-decoration: none;
+
+    margin: 10rem 0;
+    padding: 0.1rem;
+}
+
+.projects article a:last-child:hover{
+    background-color: #4c4b4b;
+    transition: 1s;
+    color: whitesmoke;
 }
 
 footer{

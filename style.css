@@ -172,3 +172,43 @@ h1{
     transition: 1s;
     color: whitesmoke;
 }
+
+.sessaoSkills{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    padding: 2rem 0;
+}
+
+.sessaoSkills h3{
+    font-size: 3rem;
+}
+
+.sessaoSkills span{
+    color: #b9b9ba;
+}
+
+.skils{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+    margin: 1rem 0;
+}
+
+.skils article{
+    border: 1px solid black;
+    border-radius: 25px;
+    width: 20rem;
+}
+
+.skils img{
+    padding: 2rem 0;
+}
+
+.skils p{
+    line-height: 1.5rem;
+}
